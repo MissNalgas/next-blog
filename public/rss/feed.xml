@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Juan Aragon - Blog</title>
+        <link>http://192.168.39.164:3000</link>
+        <description></description>
+        <lastBuildDate>Wed, 08 Sep 2021 00:58:30 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Awesome</generator>
+        <image>
+            <title>Juan Aragon - Blog</title>
+            <url>http://192.168.39.164:3000/logo.svg</url>
+            <link>http://192.168.39.164:3000</link>
+        </image>
+        <copyright>All right reserved 2021, MssnApps.</copyright>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>http://192.168.39.164:3000/blog/test</link>
+            <guid>http://192.168.39.164:3000/blog/test</guid>
+            <pubDate>Sun, 08 Aug 2021 22:00:01 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
+            <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>
+            <author>me@juanaragon.co (Juan Aragon)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World 2]]></title>
+            <link>http://192.168.39.164:3000/blog/test2</link>
+            <guid>http://192.168.39.164:3000/blog/test2</guid>
+            <pubDate>Mon, 09 Aug 2021 22:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
+            <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>
+            <author>me@juanaragon.co (Juan Aragon)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World 3]]></title>
+            <link>http://192.168.39.164:3000/blog/test3</link>
+            <guid>http://192.168.39.164:3000/blog/test3</guid>
+            <pubDate>Sat, 07 Aug 2021 22:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
+            <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>
+            <author>me@juanaragon.co (Juan Aragon)</author>
+        </item>
+    </channel>
+</rss>

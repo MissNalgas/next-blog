@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://192.168.39.164:3000</id>
+    <title>Juan Aragon - Blog</title>
+    <updated>2021-09-08T00:58:30.764Z</updated>
+    <generator>Awesome</generator>
+    <author>
+        <name>Juan Aragon</name>
+        <email>me@juanaragon.co</email>
+        <uri>https://juanaragon.co</uri>
+    </author>
+    <link rel="alternate" href="http://192.168.39.164:3000"/>
+    <link rel="self" href="http://192.168.39.164:3000/rss/atom.xml"/>
+    <logo>http://192.168.39.164:3000/logo.svg</logo>
+    <icon>http://192.168.39.164:3000/favicon.png</icon>
+    <rights>All right reserved 2021, MssnApps.</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>http://192.168.39.164:3000/blog/test</id>
+        <link href="http://192.168.39.164:3000/blog/test"/>
+        <updated>2021-08-08T22:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
+        <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>
+        <author>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </author>
+        <contributor>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World 2]]></title>
+        <id>http://192.168.39.164:3000/blog/test2</id>
+        <link href="http://192.168.39.164:3000/blog/test2"/>
+        <updated>2021-08-09T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
+        <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>
+        <author>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </author>
+        <contributor>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World 3]]></title>
+        <id>http://192.168.39.164:3000/blog/test3</id>
+        <link href="http://192.168.39.164:3000/blog/test3"/>
+        <updated>2021-08-07T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
+        <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>
+        <author>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </author>
+        <contributor>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </contributor>
+    </entry>
+</feed>

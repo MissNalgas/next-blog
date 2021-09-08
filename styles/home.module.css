@@ -1,0 +1,41 @@
+.container
+{
+    display: flex;
+}
+.leftSide
+{
+    flex: 3;
+    padding: 0 100px;
+}
+.rightSide
+{
+    flex: 1;
+}
+.rightSide p 
+{
+    text-align: center;
+}
+.topics
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.topic
+{
+    background-color: transparent;
+    border: 2px rgb(230, 226, 226) solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(179, 176, 176);
+    cursor: pointer;
+    font-weight: 600;
+}
+.topicSelected
+{
+  color: #293845;
+  border: rgb(239, 239, 247) 2px solid;
+  background-color: rgb(239, 239, 247);
+
+}

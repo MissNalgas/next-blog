@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.container
+{
+    display: flex; 
+    align-items: center;
+}
+.mainItem
+{
+    flex: 1 1;
+}
+.logo
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 65px;
+}
+.menu
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menuItem
+{
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menuItem button
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.darkContainer .moon
+{
+    fill: whitesmoke;
+}
+.darkContainer .rssCircle
+{
+    stroke: whitesmoke;
+}
+.darkContainer .rssLine
+{
+    stroke: whitesmoke;
+}
