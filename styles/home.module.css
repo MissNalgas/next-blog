@@ -5,11 +5,12 @@
 .leftSide
 {
     flex: 3;
-    padding: 0 100px;
+    padding: 0 10px;
 }
 .rightSide
 {
     flex: 1;
+    display: none;
 }
 .rightSide p 
 {
@@ -20,6 +21,7 @@
     display: flex;
     justify-content: center;
     margin: 30px 0px;
+    flex-wrap: wrap;
 }
 .topic
 {
@@ -38,4 +40,16 @@
   border: rgb(239, 239, 247) 2px solid;
   background-color: rgb(239, 239, 247);
 
+}
+@media screen and (min-width: 750px) {
+    .rightSide
+    {
+        display: block;
+    }
+}
+@media screen and (min-width: 950px) {
+    .leftSide
+    {
+        padding: 0 100px;
+    }
 }

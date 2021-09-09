@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://192.168.39.164:3000</id>
     <title>Juan Aragon - Blog</title>
-    <updated>2021-09-08T00:58:30.764Z</updated>
+    <updated>2021-09-08T23:31:56.345Z</updated>
     <generator>Awesome</generator>
     <author>
         <name>Juan Aragon</name>
@@ -14,6 +14,24 @@
     <logo>http://192.168.39.164:3000/logo.svg</logo>
     <icon>http://192.168.39.164:3000/favicon.png</icon>
     <rights>All right reserved 2021, MssnApps.</rights>
+    <entry>
+        <title type="html"><![CDATA[Is this a real post?]]></title>
+        <id>http://192.168.39.164:3000/blog/pruebas</id>
+        <link href="http://192.168.39.164:3000/blog/pruebas"/>
+        <updated>2021-09-08T14:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Is this just fantasy]]></summary>
+        <content type="html"><![CDATA[Is this just fantasy]]></content>
+        <author>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </author>
+        <contributor>
+            <name>Juan Aragon</name>
+            <email>me@juanaragon.co</email>
+            <uri>https://juanaragon.co</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
         <id>http://192.168.39.164:3000/blog/test</id>

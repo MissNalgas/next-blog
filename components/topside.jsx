@@ -16,7 +16,9 @@ export default function Topside() {
         theme.setTheme((s) => ({
             ...s,
             theme: myTheme
-        }))
+        }));
+
+        document.cookie = `theme=${myTheme}`;
     }
 
     return  <div className={theme.theme === "light" ? styles.container : `${styles.container} ${styles.darkContainer}`}>

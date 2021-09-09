@@ -4,7 +4,7 @@
         <title>Juan Aragon - Blog</title>
         <link>http://192.168.39.164:3000</link>
         <description></description>
-        <lastBuildDate>Wed, 08 Sep 2021 00:58:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Sep 2021 23:31:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Awesome</generator>
         <image>
@@ -13,6 +13,15 @@
             <link>http://192.168.39.164:3000</link>
         </image>
         <copyright>All right reserved 2021, MssnApps.</copyright>
+        <item>
+            <title><![CDATA[Is this a real post?]]></title>
+            <link>http://192.168.39.164:3000/blog/pruebas</link>
+            <guid>http://192.168.39.164:3000/blog/pruebas</guid>
+            <pubDate>Wed, 08 Sep 2021 14:47:00 GMT</pubDate>
+            <description><![CDATA[Is this just fantasy]]></description>
+            <content:encoded><![CDATA[Is this just fantasy]]></content:encoded>
+            <author>me@juanaragon.co (Juan Aragon)</author>
+        </item>
         <item>
             <title><![CDATA[Hello World]]></title>
             <link>http://192.168.39.164:3000/blog/test</link>

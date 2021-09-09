@@ -47,7 +47,7 @@ export default function Home({posts, topics}) {
             <div className={styles.container}>
               <div className={styles.leftSide}><Posts filter={filter} posts={sPosts} /></div>
               <div className={styles.rightSide}>
-                <p className="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et diam suscipit ipsum tincidunt congue ut vitae orci. Quisque non suscipit erat, nec viverra est. Curabitur eget ex vehicula, porta leo bibendum, viverra mauris. Nam et purus vel lectus porta efficitur. Phasellus maximus rutrum vehicula.</p>
+                <p className="gray">Hello! This blog was made using NextJS. Here is our <a href="https://github.com/MissNalgas/next-blog">github</a></p>
               </div>
             </div>
           </div>

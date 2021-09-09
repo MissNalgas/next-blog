@@ -4,6 +4,7 @@
 {
     display: flex; 
     align-items: center;
+    flex-direction: column;
 }
 .mainItem
 {
@@ -44,4 +45,14 @@
 .darkContainer .rssLine
 {
     stroke: whitesmoke;
+}
+.container a
+{
+    text-decoration: none;
+}
+@media screen and (min-width: 850px) {
+    .container
+    {
+        flex-direction: row;
+    }
 }

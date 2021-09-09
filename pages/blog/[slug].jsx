@@ -10,6 +10,11 @@ import styles from "../../styles/post.module.css";
 import axios from "axios";
 import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../_app";
+import CodeBlock from "../../components/codeBlock";
+
+const components = {
+    code: (props) => (<CodeBlock {...props}/>)
+}
 
 export default function Post({source, frontMatter, slug}) {
 
@@ -20,22 +25,33 @@ export default function Post({source, frontMatter, slug}) {
 
     useEffect(() => {
         axios.get(`/api/post?s=${slug}`).then((res) => {
-            console.log(res);
             setLikes(res.data.data.likes);
         })
-    }, []);
+    }, [slug]);
 
 
 
     const like = (e) => {
 
-        setHeart(true);
+        if (heart) {
 
-        if (heart) return;
+            axios.post(`/api/post?s=${slug}`, {amount: -1}).then((res) => {
+                setLikes(res.data.data.likes);
+                setHeart(false);
+            }).catch( () => {});
+            
+
+        } else {
+            axios.post(`/api/post?s=${slug}`, {amount: 1}).then((res) => {
+                setLikes(res.data.data.likes);
+                setHeart(true);
+            }).catch( (err) => {console.error(err)});
+            
+        }
+
         
-        axios.post(`/api/post?s=${slug}`).then((res) => {
-            setLikes(res.data.data.likes);
-        }).catch( () => {});
+        
+        
     }
 
     return  <div className={theme.theme === "light" ? styles.container : `${styles.container} ${styles.darkContainer}`}>
@@ -55,7 +71,9 @@ export default function Post({source, frontMatter, slug}) {
                         })}
                     </ul>
                 </header>
-                <MDXRemote {...source}/>
+                <div className={styles.postBody}>
+                    <MDXRemote {...source} components={components}/>
+                </div>
             </div>
 }
 

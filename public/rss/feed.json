@@ -10,6 +10,18 @@
     },
     "items": [
         {
+            "id": "http://192.168.39.164:3000/blog/pruebas",
+            "content_html": "Is this just fantasy",
+            "url": "http://192.168.39.164:3000/blog/pruebas",
+            "title": "Is this a real post?",
+            "summary": "Is this just fantasy",
+            "date_modified": "2021-09-08T14:47:00.000Z",
+            "author": {
+                "name": "Juan Aragon",
+                "url": "https://juanaragon.co"
+            }
+        },
+        {
             "id": "http://192.168.39.164:3000/blog/test",
             "content_html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "url": "http://192.168.39.164:3000/blog/test",

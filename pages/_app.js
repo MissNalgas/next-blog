@@ -13,12 +13,20 @@ function MyApp({ Component, pageProps }) {
 
   React.useEffect(() => {
     const prefferCS = window.matchMedia("(prefers-color-scheme: dark)");
-    if (prefferCS.matches) {
+    
+    const themeCookieP = document.cookie.split("; ").find((row) => row.startsWith("theme=")) || "";
+    const themeCookie = themeCookieP.split("=")[1] || "";
+
+
+    if (themeCookie === "dark") {
+      sSetTheme((s) => ({...s, theme: "dark"}))
+    } else if (themeCookie === "light") {
+      sSetTheme((s) => ({...s, theme: "light"}))
+    } else if (prefferCS.matches) {
       sSetTheme((s) => ({...s, theme: "dark"}))
     } else {
       sSetTheme((s) => ({...s, theme: "light"}))
     }
-    console.log(prefferCS);
 
   }, []);
 

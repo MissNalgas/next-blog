@@ -1,5 +1,5 @@
-import connectToDB from "../../utils/connectToDB";
-import Post from "../../models/post";
+import connectToDB from "../../../utils/connectToDB";
+import Post from "../../../models/post";
 
 export default async function handler(req, res) {
 
@@ -22,9 +22,12 @@ export default async function handler(req, res) {
             break;
         case "POST":
             try {
-                const data = await Post.findOneAndUpdate({slug: s}, {$inc: {likes: 1}}, {new: true});
+                let amount = req.body.amount || 1;
+                amount =  parseInt(amount);
+                const data = await Post.findOneAndUpdate({slug: s}, {$inc: {likes: amount}}, {new: true});
                 res.status(200).json({message: "success", data});
             } catch (err) {
+                console.error(err);
                 res.status(500).json({message: "error"});
             }
             break;
