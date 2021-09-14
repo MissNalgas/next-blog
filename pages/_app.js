@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
             <Head>
               <meta key="keywords" name="keywords" content="blog, technology, opinion, security, angular, react, nodejs, frameworks, javascript, coding"/>
               <meta name="robots" content="index, follow"/>
-              <meta name="language" content="English"/>
+              <meta name="language" content="en-us"/>
             </Head>
             <div className="container">
               <Topside/>

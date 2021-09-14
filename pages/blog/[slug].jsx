@@ -16,6 +16,7 @@ import Head from "next/head";
 const components = {
     code: (props) => (<CodeBlock {...props}/>)
 }
+const WEBSITE_URL = "https://blog.mssnapps.com";
 
 export default function Post({source, frontMatter, slug}) {
 
@@ -60,6 +61,25 @@ export default function Post({source, frontMatter, slug}) {
                     <title>{frontMatter.title} - Juan Aragon</title>
                     <meta type="description" content={frontMatter.summary}/>
                     <meta key="keywords" type="keywords" content={frontMatter.topics.join(", ")}/>
+                
+                    <meta property="og:type" content="article"/>
+                    <meta property="og:title" content={frontMatter.title}/>
+                    <meta property="og:description" content={frontMatter.summary}/>
+                    <meta property="og:image" content={`${WEBSITE_URL}/banana.png`}/>
+                    <meta property="og:site_name" content="JuanAragon.co"/>
+                    <meta property="og:url" content={`${WEBSITE_URL}/blog/${slug}`}/>
+                    <meta property="article:publisher" content="https://juanaragon.co/"/>
+                    <meta property="article:publisher_time" content={new Date(frontMatter.date).toLocaleDateString("en-us", {month: "numeric", day: "numeric", year: "numeric"})}/>
+
+
+                    <meta property="twitter:card" content="summary_large_image"/>
+                    <meta property="twitter:url" content={`${WEBSITE_URL}/blog/${slug}`}/>
+                    <meta property="twitter:title" content={frontMatter.title}/>
+                    <meta property="twitter:description" content={frontMatter.summary}/>
+                    <meta property="twitter:image:src" content={`${WEBSITE_URL}/banana.png`}/>
+                    <meta property="twitter:site" content="@juanaragon1997"/>
+                    
+                    
                 </Head>
                 <div className={heart ? `${styles.likes} ${styles.likesHeart}` : styles.likes}>
                     <button onClick={like}>
