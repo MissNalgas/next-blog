@@ -3,6 +3,7 @@ import Topside from "../components/topside";
 
 import React from "react";
 export const ThemeContext = React.createContext({theme: "light", setTheme: () => {}});
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
 
@@ -40,6 +41,11 @@ function MyApp({ Component, pageProps }) {
   
 
   return  <ThemeContext.Provider value={sTheme}>
+            <Head>
+              <meta key="keywords" name="keywords" content="blog, technology, opinion, security, angular, react, nodejs, frameworks, javascript, coding"/>
+              <meta name="robots" content="index, follow"/>
+              <meta name="language" content="English"/>
+            </Head>
             <div className="container">
               <Topside/>
               <Component {...pageProps} />

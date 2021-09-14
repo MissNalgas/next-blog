@@ -1,18 +1,18 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Juan Aragon - Blog",
-    "home_page_url": "http://192.168.39.164:3000",
-    "feed_url": "http://192.168.39.164:3000/rss/feed.json",
-    "icon": "http://192.168.39.164:3000/logo.svg",
+    "home_page_url": "https://blog.mssnapps.com",
+    "feed_url": "https://blog.mssnapps.com/rss/feed.json",
+    "icon": "https://blog.mssnapps.com/logo.svg",
     "author": {
         "name": "Juan Aragon",
         "url": "https://juanaragon.co"
     },
     "items": [
         {
-            "id": "http://192.168.39.164:3000/blog/pruebas",
+            "id": "https://blog.mssnapps.com/blog/pruebas",
             "content_html": "Is this just fantasy",
-            "url": "http://192.168.39.164:3000/blog/pruebas",
+            "url": "https://blog.mssnapps.com/blog/pruebas",
             "title": "Is this a real post?",
             "summary": "Is this just fantasy",
             "date_modified": "2021-09-08T14:47:00.000Z",
@@ -22,9 +22,9 @@
             }
         },
         {
-            "id": "http://192.168.39.164:3000/blog/test",
+            "id": "https://blog.mssnapps.com/blog/test",
             "content_html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "url": "http://192.168.39.164:3000/blog/test",
+            "url": "https://blog.mssnapps.com/blog/test",
             "title": "Hello World",
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "date_modified": "2021-08-08T22:00:01.000Z",
@@ -34,9 +34,9 @@
             }
         },
         {
-            "id": "http://192.168.39.164:3000/blog/test2",
+            "id": "https://blog.mssnapps.com/blog/test2",
             "content_html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "url": "http://192.168.39.164:3000/blog/test2",
+            "url": "https://blog.mssnapps.com/blog/test2",
             "title": "Hello World 2",
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "date_modified": "2021-08-09T22:00:00.000Z",
@@ -46,9 +46,9 @@
             }
         },
         {
-            "id": "http://192.168.39.164:3000/blog/test3",
+            "id": "https://blog.mssnapps.com/blog/test3",
             "content_html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "url": "http://192.168.39.164:3000/blog/test3",
+            "url": "https://blog.mssnapps.com/blog/test3",
             "title": "Hello World 3",
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "date_modified": "2021-08-07T22:00:00.000Z",

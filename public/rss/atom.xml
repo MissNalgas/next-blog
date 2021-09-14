@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://192.168.39.164:3000</id>
+    <id>https://blog.mssnapps.com</id>
     <title>Juan Aragon - Blog</title>
-    <updated>2021-09-08T23:31:56.345Z</updated>
+    <updated>2021-09-14T18:23:40.565Z</updated>
     <generator>Awesome</generator>
     <author>
         <name>Juan Aragon</name>
         <email>me@juanaragon.co</email>
         <uri>https://juanaragon.co</uri>
     </author>
-    <link rel="alternate" href="http://192.168.39.164:3000"/>
-    <link rel="self" href="http://192.168.39.164:3000/rss/atom.xml"/>
-    <logo>http://192.168.39.164:3000/logo.svg</logo>
-    <icon>http://192.168.39.164:3000/favicon.png</icon>
+    <link rel="alternate" href="https://blog.mssnapps.com"/>
+    <link rel="self" href="https://blog.mssnapps.com/rss/atom.xml"/>
+    <logo>https://blog.mssnapps.com/logo.svg</logo>
+    <icon>https://blog.mssnapps.com/favicon.png</icon>
     <rights>All right reserved 2021, MssnApps.</rights>
     <entry>
         <title type="html"><![CDATA[Is this a real post?]]></title>
-        <id>http://192.168.39.164:3000/blog/pruebas</id>
-        <link href="http://192.168.39.164:3000/blog/pruebas"/>
+        <id>https://blog.mssnapps.com/blog/pruebas</id>
+        <link href="https://blog.mssnapps.com/blog/pruebas"/>
         <updated>2021-09-08T14:47:00.000Z</updated>
         <summary type="html"><![CDATA[Is this just fantasy]]></summary>
         <content type="html"><![CDATA[Is this just fantasy]]></content>
@@ -34,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>http://192.168.39.164:3000/blog/test</id>
-        <link href="http://192.168.39.164:3000/blog/test"/>
+        <id>https://blog.mssnapps.com/blog/test</id>
+        <link href="https://blog.mssnapps.com/blog/test"/>
         <updated>2021-08-08T22:00:01.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
         <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>
@@ -52,8 +52,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World 2]]></title>
-        <id>http://192.168.39.164:3000/blog/test2</id>
-        <link href="http://192.168.39.164:3000/blog/test2"/>
+        <id>https://blog.mssnapps.com/blog/test2</id>
+        <link href="https://blog.mssnapps.com/blog/test2"/>
         <updated>2021-08-09T22:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
         <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>
@@ -70,8 +70,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World 3]]></title>
-        <id>http://192.168.39.164:3000/blog/test3</id>
-        <link href="http://192.168.39.164:3000/blog/test3"/>
+        <id>https://blog.mssnapps.com/blog/test3</id>
+        <link href="https://blog.mssnapps.com/blog/test3"/>
         <updated>2021-08-07T22:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
         <content type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content>

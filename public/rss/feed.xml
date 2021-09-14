@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Juan Aragon - Blog</title>
-        <link>http://192.168.39.164:3000</link>
+        <link>https://blog.mssnapps.com</link>
         <description></description>
-        <lastBuildDate>Wed, 08 Sep 2021 23:31:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Sep 2021 18:23:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Awesome</generator>
         <image>
             <title>Juan Aragon - Blog</title>
-            <url>http://192.168.39.164:3000/logo.svg</url>
-            <link>http://192.168.39.164:3000</link>
+            <url>https://blog.mssnapps.com/logo.svg</url>
+            <link>https://blog.mssnapps.com</link>
         </image>
         <copyright>All right reserved 2021, MssnApps.</copyright>
         <item>
             <title><![CDATA[Is this a real post?]]></title>
-            <link>http://192.168.39.164:3000/blog/pruebas</link>
-            <guid>http://192.168.39.164:3000/blog/pruebas</guid>
+            <link>https://blog.mssnapps.com/blog/pruebas</link>
+            <guid>https://blog.mssnapps.com/blog/pruebas</guid>
             <pubDate>Wed, 08 Sep 2021 14:47:00 GMT</pubDate>
             <description><![CDATA[Is this just fantasy]]></description>
             <content:encoded><![CDATA[Is this just fantasy]]></content:encoded>
@@ -24,8 +24,8 @@
         </item>
         <item>
             <title><![CDATA[Hello World]]></title>
-            <link>http://192.168.39.164:3000/blog/test</link>
-            <guid>http://192.168.39.164:3000/blog/test</guid>
+            <link>https://blog.mssnapps.com/blog/test</link>
+            <guid>https://blog.mssnapps.com/blog/test</guid>
             <pubDate>Sun, 08 Aug 2021 22:00:01 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
             <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>
@@ -33,8 +33,8 @@
         </item>
         <item>
             <title><![CDATA[Hello World 2]]></title>
-            <link>http://192.168.39.164:3000/blog/test2</link>
-            <guid>http://192.168.39.164:3000/blog/test2</guid>
+            <link>https://blog.mssnapps.com/blog/test2</link>
+            <guid>https://blog.mssnapps.com/blog/test2</guid>
             <pubDate>Mon, 09 Aug 2021 22:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
             <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>
@@ -42,8 +42,8 @@
         </item>
         <item>
             <title><![CDATA[Hello World 3]]></title>
-            <link>http://192.168.39.164:3000/blog/test3</link>
-            <guid>http://192.168.39.164:3000/blog/test3</guid>
+            <link>https://blog.mssnapps.com/blog/test3</link>
+            <guid>https://blog.mssnapps.com/blog/test3</guid>
             <pubDate>Sat, 07 Aug 2021 22:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
             <content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></content:encoded>

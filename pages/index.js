@@ -10,6 +10,7 @@ import styles from "../styles/home.module.css";
 import { useState, useEffect } from "react";
 
 import axios from "axios";
+import Head from "next/head";
 
 
 export default function Home({posts, topics}) {
@@ -39,6 +40,10 @@ export default function Home({posts, topics}) {
   }
 
   return  <div>
+            <Head>
+              <title>Juan Aragon - Blog</title>
+              <meta type="description" content="Juan Aragon - Technology blog"/>
+            </Head>
             <div className={styles.topics}>
               {topics.map((top) => {
                 return <button className={(filter === top) ? `${styles.topic} ${styles.topicSelected}` : styles.topic} key={top} onClick={() => selectTopic(top)}>{top}</button>
@@ -60,7 +65,7 @@ import { Feed } from "feed";
 export async function getStaticProps(context) {
 
   await connectToDB();
-  const siteURL = "http://192.168.39.164:3000";
+  const siteURL = process.env.WEBSITE_URL;
   const date = new Date();
   const author = {
     name: "Juan Aragon",
