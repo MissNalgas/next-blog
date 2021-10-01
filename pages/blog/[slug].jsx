@@ -65,19 +65,20 @@ export default function Post({source, frontMatter, slug}) {
                     <meta property="og:type" content="article"/>
                     <meta property="og:title" content={frontMatter.title}/>
                     <meta property="og:description" content={frontMatter.summary}/>
-                    <meta property="og:image" content={`${WEBSITE_URL}/banana.png`}/>
+                    <meta property="og:image" content={`${WEBSITE_URL}/${frontMatter.image}`}/>
                     <meta property="og:site_name" content="JuanAragon.co"/>
                     <meta property="og:url" content={`${WEBSITE_URL}/blog/${slug}`}/>
                     <meta property="article:publisher" content="https://juanaragon.co/"/>
                     <meta property="article:publisher_time" content={new Date(frontMatter.date).toLocaleDateString("en-us", {month: "numeric", day: "numeric", year: "numeric"})}/>
 
 
-                    <meta property="twitter:card" content="summary_large_image"/>
-                    <meta property="twitter:url" content={`${WEBSITE_URL}/blog/${slug}`}/>
-                    <meta property="twitter:title" content={frontMatter.title}/>
-                    <meta property="twitter:description" content={frontMatter.summary}/>
-                    <meta property="twitter:image:src" content={`${WEBSITE_URL}/banana.png`}/>
-                    <meta property="twitter:site" content="@juanaragon1997"/>
+                    <meta name="twitter:card" content="summary_large_image"/>
+                    <meta name="twitter:site" content="@juanaragon1997"/>
+                    <meta name="twitter:creator" content="@juanaragon1997"/>
+                    <meta name="twitter:title" content={frontMatter.title}/>
+                    <meta name="twitter:description" content={frontMatter.summary}/>
+                    <meta name="twitter:image" content={`${WEBSITE_URL}/${frontMatter.image}`}/>
+                    <meta name="twitter:url" content={`${WEBSITE_URL}/blog/${slug}`}/>
                     
                     
                 </Head>

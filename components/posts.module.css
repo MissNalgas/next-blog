@@ -12,6 +12,16 @@
     margin: 10px;
     display: block;
     text-decoration: none;
+    display: flex;
+}
+.postArticle
+{
+    flex: 3
+}
+.postImage
+{
+    position: relative;
+    flex: 1;
 }
 .postDark .post
 {
